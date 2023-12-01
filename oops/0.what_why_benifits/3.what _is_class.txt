@@ -1,0 +1,4 @@
+Classes in C++:-
+
+Classes are user-defined data-types and are a template for creating objects.
+Classes consist of variables and functions which are also called class members.
