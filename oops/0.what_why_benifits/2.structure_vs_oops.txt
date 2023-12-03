@@ -5,3 +5,21 @@ For example, we cannot hide data in structures which means that everything is pu
 and can be accessed easily which is a major drawback of the structure because
 structures cannot be used where data security is a major concern.
 Another drawback of structures is that we cannot add functions in it.
+
+
+// OOPs - Classes and objects
+
+// C++ --> initially called --> C with classes by stroustroup
+// class --> extension of structures (in C)
+// structures had limitations
+//      - members are public
+//      - No methods
+// classes --> structures + more
+// classes --> can have methods and properties
+// classes --> can make few members as private & few as public
+// structures in C++ are typedefed
+// you can declare objects along with the class declarion like this:
+/* class Employee{
+            // Class definition
+        } pankaj, rohan, lovish; */
+// pankaj.salary = 8 makes no sense if salary is private
