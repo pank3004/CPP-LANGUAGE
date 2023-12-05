@@ -34,12 +34,12 @@ public:
     }
 };
 
-// void exchange(X &oX, Y &oY)
-// {
-//     int temp = oX.data1;
-//     oX.data1 = oY.data2;
-//     oY.data2 = temp;
-// }
+void exchange(X &oX, Y &oY)
+{
+    int temp = oX.data1;
+    oX.data1 = oY.data2;
+    oY.data2 = temp;
+}
 
 int main()
 {
@@ -48,14 +48,14 @@ int main()
     oX.setData(34);
     oY.setData(76);
 
-    // cout << "Before exchange the values of data1 and data2:";
-    // oX.getData();
-    // oY.getData();
+    cout << "Before exchange the values of data1 and data2:";
+    oX.getData();
+    oY.getData();
 
-    // exchange(oX, oY);
-    // cout << "After exchange the values of data1 and data2:";
-    // oX.getData();
-    // oY.getData();
+    exchange(oX, oY);
+    cout << "After exchange the values of data1 and data2:";
+    oX.getData();
+    oY.getData();
 
     return 0;
 }
