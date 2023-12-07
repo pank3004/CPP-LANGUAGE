@@ -48,12 +48,12 @@ int main()
     oX.setData(34);
     oY.setData(76);
 
-    cout << "Before exchange the values of data1 and data2:";
+    cout << "Before exchange the values of data1 and data2:"<<endl;
     oX.getData();
     oY.getData();
 
     exchange(oX, oY);
-    cout << "After exchange the values of data1 and data2:";
+    cout << "After exchange the values of data1 and data2:"<<endl;
     oX.getData();
     oY.getData();
 
