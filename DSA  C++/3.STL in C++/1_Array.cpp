@@ -7,8 +7,6 @@ int main() {
    // cout<<ar.at(2)<<endl;         //error
    //cout<<ar.empty()<<endl;        //error
 
-
-
     array<int,4> arr={2,3,5,6};
     int size=arr.size();
     cout<<"size of array: "<<size<<endl;

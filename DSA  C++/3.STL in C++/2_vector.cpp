@@ -23,9 +23,9 @@ int main()
     v.push_back(10);
     cout << "capacity: " << v.capacity() << endl; // 8  when the size of vector full and after push elm then cteate new vector with double size of current vector and copy all elm of the current elem. in the new vector
 
-    cout << "elm at second index: " << v.at(2) << endl;
-    cout << "front=" << v.front() << endl;
-    cout << "back=" << v.back() << endl;
+    cout << "elm at second index: " << v.at(2) << endl; //4
+    cout << "front=" << v.front() << endl; //2
+    cout << "back=" << v.back() << endl; //10
 
     cout << "befor pop: " << endl;
 
