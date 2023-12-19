@@ -23,8 +23,8 @@ public:
     friend void add(X ,Y);
 };
 
-void add(X o1, Y o2){
-    cout<<"add of the two number: "<<(o1.num1+o2.num2)<<endl;
+void add(X o1, Y o2){          // the function add is the firend of two classoes X and Y 
+    cout<<"add of the two number: "<<(o1.num1+o2.num2)<<endl;   
 }
 int main() {
     X o1;

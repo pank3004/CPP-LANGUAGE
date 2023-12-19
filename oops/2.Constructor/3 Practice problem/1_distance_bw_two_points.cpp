@@ -24,7 +24,7 @@ float pointDistance(Point c1, Point c2){
     return sqrt(pow((c2.y-c1.y),2)+pow((c2.x-c1.x),2));
 }
 
-int Point :: count;
+int Point :: count;     //count=0
 int main() {
     Point p1(1,6);
     p1.getData();
